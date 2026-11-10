@@ -9,7 +9,7 @@ document.getElementById('login-btn')
         const pinNumber = inputPin.value;
         console.log(pinNumber);
     //match pin & mobile number
-        if(contactNumber == '01777822045' && pinNumber == '1234'){
+        if(contactNumber == '01777777777' && pinNumber == '1234'){
             alert('login success');
     //window.location.assign
         window.location.assign('/home.html')
